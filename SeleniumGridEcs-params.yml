@@ -1,0 +1,43 @@
+version: 1
+task_definition:
+  ecs_network_mode: "bridge"
+  task_role_arn: "arn:aws:iam::713132177838:role/Generic-ECSTaskExecutionRole"
+  task_execution_role: "arn:aws:iam::713132177838:role/Generic-ECSTaskExecutionRole"
+  services:
+    selenium-hub:
+      cpu_shares: 1024
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome1:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome2:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome3:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome4:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome5:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome6:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome7:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+    chrome8:
+      cpu_shares: 512
+      mem_limit: 2GB
+      mem_reservation: 0.5GB
+      
