@@ -7,7 +7,7 @@ services:
     container_name: selenium-hub
     environment:
       - GRID_MAX_SESSION=8
-      - GRID_NEW_SESSION_WAIT_TIMEOUT=60      
+      - GRID_NEW_SESSION_WAIT_TIMEOUT=3600      
     ports:
       - "4444:4444"
   chrome1:
